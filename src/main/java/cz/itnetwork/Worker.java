@@ -6,25 +6,26 @@ public class Worker {
 
     private final String[][] defaultEntries = {
             //{ "name", "goods", "amount", "price", "note", "status" },
-            { "Snoop Dogg", "weed", "enough for every day", "$0", "protection payment", "held up - Snoopy big mad..." },
-            { "Eugene 'Ganjaman' Stoner", "cannabis sativa seeds", "2 packs", "$120", "only the best", "delivered" }, // famous US firearms designer responsible for the M16
-            { "Theodore Kaczynski", "fertilizer", "800kg", "$60", "smart guy, kinda weird", "delivered" }, // the UnaBomber
-            { "Jesse Pinkman", "LDPE plastic tubs", "2x 500l tubs", "$39.90", "jittery, left side black eye", "cancelled - none big enough" }, // Breaking Bad
-            { "Dixie Pearllilyz", "the *good* soothing cream", "150ml tube", "$0", "paid in \"personal favors\"", "recurring order" },
-            { "Bruce \"Sledgehammer\" Pummelton", "band-aids", "3 packs of 100", "$30", "urgent", "en route" }, // a wrestler
-            { "Boris Vladimirovich Blyatov", "drones", "all of them", "on credit", "will pay in crude oil", "waiting for the O.K. from Tehran" }, // political commentary
-            { "Jedidiah Thaddeus Beauregard", "pointy white cotton hoods", "3", "$66", "Karl Kaiser & Kompany", "expedited" }, // the klan
-            { "Lil G", "assorted heat", "10-12 pieces", "$$$$$$3200", "complimentary spare magazines", "dead-dropped" }, // from da hood
-            { "José Antonio Ramirez", "sturdy shovels", "5", "$30", "El Paso area", "confiscated by the FDA" }, // a "dreamer"
-            { "Long Schlong Silver", "pieces of eight", "15,000", "trade for 180lbs of indigo", "rendezvous off Isla de la Vache", "sunk" },
-            { "Edward Teach", "18pd solid shot", "2000 balls", "4,000 pieces of eight", "moored at Port Royal", "expended" },
-            { "Dick Longenhaard", "rum", "26 barrels", "1,300 pieces of eight", "deliver to Tortuga", "drunk" }, // Dick is a totally legitimate name (e.g. Dick Cheney), short for Richard
-            { "Joe Rogan", "mushrooms", "4 punnets", "$160", "for personal use", "fulfilled" },
+            { "Snoop Dogg", "weed", "enough for every day", "on da house", "in-kind protection payment", "held up - Snoopy big mad..." }, // overrated rapper
+            { "Eugene 'Ganjaman' Stoner", "cannabis sativa seeds", "2 packs", "$120", "only the best", "delivered" }, // famous US firearms designer responsible for the M16/AR15
+            { "Theodore Kaczynski", "fertilizer", "800kg", "$60", "smart guy, kinda weird and twitchy", "planted" }, // the UnaBomber
+            { "Jesse Pinkman", "LDPE plastic tubs", "2x 500l tubs", "$39.90", "jittery, left side black eye", "cancelled - none big enough" }, // gonna cook up some blue crystal meth
+            { "Dixie Pearllilyz", "the *good* soothing cream", "500ml tube", "pro bono", "paid in \"personal favors\"", "recurring order" }, // oldest profession
+            { "Bruce \"Sledgehammer\" Pummelton", "band-aids", "3 packs of 100", "$30", "urgent", "en route" }, // a generic wrestler
+            { "Boris Vladimirovich Blyatov", "drones", "all of them", "on credit", "will pay in crude oil", "awaiting approval from Tehran" }, // political commentary
+            { "Jedidiah Thaddeus Beauregard", "pointy white cotton hoods", "3", "$66", "Karl Kaiser & Kompany", "expedited" }, // the klan quartermaster
+            { "Lil G", "assorted heat", "10-12 pieces", "$$3200$$", "complimentary spare magazines", "dead-dropped" }, // from da hood
+            { "Ahmed Abdullah ibn Zayd al-Jabbar", "Semtex-1H", "286 bricks, 570g per", "$632,000", "allegedly for landscaping", "payment pending" }, // must not talk about this
+            { "José Antonio Ramirez", "sturdy shovels", "5", "$30", "El Paso area", "confiscated by the FDA" }, // your typical "dreamer"
+            { "Long Schlong Silver", "pieces of eight", "15,000", "trade for 180lbs of indigo", "rendezvous off Isla de la Vache", "sunk" }, // Yarr, me mateys!
+            { "Edward Teach", "18pd solid shot", "2000 balls", "4,000 pieces of eight", "moored at Port Royal", "expended" }, // pyrate scum Blackbeard
+            { "Dick Longenhaard", "rum", "26 barrels", "1,300 pieces of eight", "deliver to Tortuga", "drunk" }, // Dick is short for Richard (e.g. Dick Cheney)
+            { "Joe Rogan", "mushrooms", "4 punnets", "$160", "for personal use", "fulfilled" }, // must maintain sanity somehow
 //            { "", "", "", "", "", "" },
 //            { "", "", "", "", "", "" },
 //            { "", "", "", "", "", "" },
-            { "John Wick", "guns", "lots of guns", "8 coins", "tactical grips", "no longer required - RIP" },
-            { "Thomas Anderson", "guns", "lots of guns", "NaN", "0x00000000", "ERR-808: Deja Vu Loop" }, // The Matrix
+            { "John Wick", "guns", "lots of guns", "8 coins", "tactical grips", "no longer required - RIP" }, // reference
+            { "Thomas Anderson", "guns", "lots of guns", "NaN", "0x00000000", "ERR-808: Deja Vu Loop" }, // glitched reference
     };
 
     private Reader reader = new Reader();

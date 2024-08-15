@@ -32,8 +32,8 @@ public class Writer { // all print/println strings are vertically aligned in the
         );
     }
 
-    public void clearThatScreenYeahYouClearThatScreenHard() {
-        // still not working - probably will never work in IDE
+    public void clearThatScreenYeahYouClearThatScreenHard() { // does not work
+        // still not working - probably will never work in IDE pseudo-console
         String os = System.getProperty("os.name").toLowerCase();
         try {
             if (os.contains("nix") || os.contains("nux") || os.contains("mac")) {
@@ -295,7 +295,7 @@ public class Writer { // all print/println strings are vertically aligned in the
         }
     }
 
-    // moar! gimme moar... gimme moar... methods...
-    // if I had a heart... I could love you...
-    // if I had a voice... I could sing...
+    // moar, gimme moar, gimme moar methods...
+    // if I had a heart, I could love you...
+    // if I had a voice, I could sing...
 }
